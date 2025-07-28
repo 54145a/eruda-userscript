@@ -1,2 +1,2 @@
 # eruda-userscript
-Simple userscript to load eruda.
+Simple userscript to load eruda, for self use.
