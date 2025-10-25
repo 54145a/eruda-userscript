@@ -3,8 +3,8 @@
 // @description  Simple userscript that loads eruda console.
 // @match        *://*/*?*loaderuda=1*
 // @version      2025-10-25
-// @namespace    https://54145a.github.io
-// @require      https://cdn.jsdelivr.net/npm/eruda
+// @namespace    https://pkuschool.yuque.com/tqpgmr
+// @require      https://pkuschool.yuque.com/r/resources/download/45398745
 // @grant        none
 // ==/UserScript==
 (function () {
