@@ -2,20 +2,16 @@
 // @name         Eruda
 // @description  Simple userscript that loads eruda console.
 // @match        *://*/*?*loaderuda=1*
-// @version      2025-06-20
-// @namespace    https://github.com/54145a
-// @downloadURL  https://github.com/54145a/eruda-userscript/raw/refs/heads/main/eruda.user.js
-// @updateURL    https://github.com/54145a/eruda-userscript/raw/refs/heads/main/eruda.user.js
+// @version      2025-10-25
+// @namespace    https://54145a.github.io
 // @require      https://cdn.jsdelivr.net/npm/eruda
 // @grant        none
 // ==/UserScript==
 (function () {
-    //GM_registerMenuCommand
-    //GM_unregisterMenuCommand
     "use strict";
     if(!window.eruda) return;
     try {
-        let initCmdId;
+        //let initCmdId;
         function initEruda() {
             //GM_unregisterMenuCommand(initCmdId);
             window.eruda.init();
